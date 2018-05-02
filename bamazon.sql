@@ -1,12 +1,12 @@
 USE bamazon_DB;
 
-/*CREATE TABLE products(
+CREATE TABLE products(
     item_id INTEGER(10) AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(50) NOT NULL,
     price DECIMAL(10,2) NOT NULL,
     depatment_name VARCHAR(50) NOT NULL,
     stock_quantity INTEGER(10) NOT NULL
-);*/
+);
 
 INSERT INTO products (product_name, depatment_name, price, stock_quantity)
 VALUES ("God of War", "Video Games", 69.99, 100);

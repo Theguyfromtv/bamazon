@@ -1,1 +1,3 @@
 # bamazon
+
+![](customer/insufficientStock.gif)
